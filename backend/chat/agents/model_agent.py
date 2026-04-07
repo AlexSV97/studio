@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class ModelAgent:
-    def __init__(self, model_name="microsoft/DialoGPT-small"):
+    def __init__(self, model_name="gpt2"):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.pipe = pipeline("text-generation", model=self.model, tokenizer=self.tokenizer)
