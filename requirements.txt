@@ -13,3 +13,4 @@ transformers
 torch
 djangorestframework
 streamlit
+llama-cloud
