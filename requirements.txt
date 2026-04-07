@@ -9,3 +9,7 @@ sqlalchemy
 pydantic
 fastapi
 uvicorn
+transformers
+torch
+djangorestframework
+streamlit
