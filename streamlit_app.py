@@ -8,7 +8,7 @@ st.write("Interfaz para probar la API de Django con agentes de vista, modelo, ba
 
 user_id = st.text_input("User ID", value="test")
 message = st.text_area("Mensaje", value="¿Qué dice el PDF sobre atención?")
-pdf_path = st.text_input("Path al PDF (opcional)", value="./attention_is_all_you_need.pdf")
+pdf_path = st.text_input("Path al PDF (opcional)", value="./backend/context/attention_is_all_you_need.pdf")
 
 if st.button("Enviar"):
     if user_id and message:
