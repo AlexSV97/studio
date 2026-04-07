@@ -1,0 +1,11 @@
+flask
+django
+pandas
+numpy
+requests
+pytest
+python-dotenv
+sqlalchemy
+pydantic
+fastapi
+uvicorn
